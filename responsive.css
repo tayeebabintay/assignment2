@@ -16,4 +16,13 @@
         flex-direction: column;
     }
 
+    /* change your habit */
+
+    .image-part {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px;
+    }
+
 }

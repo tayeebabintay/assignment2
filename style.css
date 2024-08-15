@@ -181,6 +181,12 @@
 
 /* <!-- change your habit section --> */
 
+.heading {
+    display: grid;
+    place-items: start center;
+    padding: 50px;
+}
+
 .habit-title {
     color: white;
     font-size: 48px;
@@ -189,4 +195,46 @@
 .habit-content {
     color: white;
     opacity: 0.5;
+}
+
+.img {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+
+.img-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.image-part {
+    display: flex;
+}
+
+/* run extea mile */
+
+.run-content {
+    height: 290px;
+    width: 443px;
+    padding: 50px;
+}
+
+.run-image {
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 70% 30%;
+}
+
+.run-container {
+    background-color: rgba(71, 69, 69, 0.308);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 350px;
+
 }
