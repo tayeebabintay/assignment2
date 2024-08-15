@@ -1,0 +1,19 @@
+/* banner resonsive*/
+@media screen and (max-width:576px) {
+
+    .nav-right {
+        display: none;
+        ;
+    }
+
+
+    /* Show hamburger icon on mobile */
+    .nav-bar .hamburger {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+}
