@@ -231,6 +231,7 @@
 
 .run-container {
     background-color: rgba(71, 69, 69, 0.308);
+    border-radius: 25px;
     display: flex;
     justify-content: space-between;
     padding: 10px;

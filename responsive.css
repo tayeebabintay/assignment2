@@ -10,6 +10,10 @@
     /* Show hamburger icon on mobile */
     .nav-bar .hamburger {
         display: block;
+        background-color: white;
+        height: 1px;
+        width: 1px;
+
     }
 
     .banner {
@@ -23,6 +27,17 @@
         justify-content: center;
         align-items: center;
         padding: 150px;
+    }
+
+
+    /* run extra part */
+
+    .run-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 531px;
+        width: auto;
     }
 
 }
