@@ -194,6 +194,7 @@
 
 .habit-content {
     color: white;
+    font-size: 14;
     opacity: 0.5;
 }
 
@@ -238,4 +239,165 @@
     margin-bottom: 20px;
     height: 350px;
 
+}
+
+
+/* meet our team part */
+
+.meet-container {
+    display: grid;
+    place-items: start center;
+    padding: 70px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.meet-heading {
+    display: grid;
+    place-items: start center;
+    padding: 70px;
+}
+
+.h1-text {
+    font-size: 20px;
+    color: white;
+    font-weight: 400px;
+    height: 24px;
+    width: 250px;
+}
+
+.p-text {
+    font-size: 14px;
+    font-weight: 400px;
+    color: white;
+    opacity: 0.5;
+    height: 17px;
+    width: 47px;
+}
+
+.meet-img {
+    height: 272px;
+    width: 327px;
+    border-radius: 20px;
+}
+
+.meet-img-container {
+    display: grid;
+    grid-template-areas:
+        "trainer-1 trainer-2 trainer-3"
+        "trainer-4 trainer-5 trainer-6";
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: rgba(66, 65, 65, 0.849);
+    border-radius: 25px;
+    height: auto;
+    width: 1060px;
+}
+
+
+.meet-container {
+    position: relative;
+}
+
+#img-1 {
+    position: absolute;
+    bottom: 42%;
+    left: 13%;
+}
+
+#img-2 {
+    position: absolute;
+    bottom: 42%;
+    left: 39%;
+}
+
+#img-3 {
+    position: absolute;
+    bottom: 42%;
+    left: 65%;
+}
+
+#img-4 {
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+}
+
+#img-5 {
+    position: absolute;
+    bottom: 10%;
+    left: 39%;
+}
+
+
+#img-6 {
+    position: absolute;
+    bottom: 10%;
+    left: 65%;
+}
+
+
+/* footer */
+
+#footer {
+    color: #E6533C;
+    font-weight: 900px;
+    font-size: 70px;
+}
+
+#footer-content {
+    font-size: 14px;
+    font-weight: 400px;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer-heading {
+    font-size: 32px;
+    font-weight: 800px;
+    color: white;
+}
+
+.footer-list {
+    font-size: 23px;
+    font-weight: 400px;
+    color: white;
+    opacity: 0.5;
+    list-style: none;
+}
+
+.all-right {
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+    opacity: 0.5;
+}
+
+.last-part {
+    display: flex;
+    background-color: rgba(56, 53, 53, 0.308);
+    height: 490px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.all-right {
+    margin: auto;
+    width: 500px;
 }

@@ -40,4 +40,31 @@
         width: auto;
     }
 
+
+    /* meet our team part */
+
+    .meet-img-container {
+        display: grid;
+        grid-template-areas:
+            "trainer-1"
+            "trainer-2"
+            "trainer-3"
+            "trainer-4"
+            "trainer-5"
+            "trainer-6";
+        width: 353px;
+
+    }
+
+
+    /* footer responsive */
+    .last-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+    }
 }
